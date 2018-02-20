@@ -1,6 +1,6 @@
 function repeat( fn, n ) {
   for (let i = 1; i <= n; i++) {
-    fn;
+    fn();
   }
 }
 
@@ -15,4 +15,5 @@ function goodbye() {
 // hello();
 // goodbye();
 
-repeat( hello(), 3 );
+repeat( hello, 5 );
+repeat( goodbye, 5 );
