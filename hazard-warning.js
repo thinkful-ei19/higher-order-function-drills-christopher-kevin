@@ -11,9 +11,9 @@ let rocksWarning = hazardWarningCreator('Rocks on the Road');
 let snowWarning = hazardWarningCreator('It\'s snowing outside');
 let heatWarning = hazardWarningCreator('It\'s hot as hell');
 
-let test = ;
-console.log(test);
+rocksWarning('Main st. pacific ave');
+snowWarning('Church st. and 7th');
+heatWarning('Cactus and 19th');
 
-// return1('Main st. pacific ave');
-// return2('Church st. and 7th');
-// return3('Cactus and 19th');
+// let test = ;
+// console.log(test);
